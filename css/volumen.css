@@ -1,0 +1,43 @@
+.volume-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .volume {
+    position: relative;
+    width: 30px; /* Ancho de la barra */
+    height: 200px; /* Altura de la barra */
+    background: #ddd; /* Color de fondo de la barra */
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .volume-indicator {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #44f5b7; /* Color inicial del indicador */
+    transition: height 0.2s ease;
+  }
+  
+  .volume-control {
+    position: absolute;
+    top: 0;
+    right: 115px; /* Espacio entre la barra y la flecha */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .volume-arrow {
+    font-size: 30px;
+    cursor: pointer;
+    color: #44f5b7;
+    user-select: none;
+    position: absolute;
+    right: 0; /* Ajusta según sea necesario */
+  }
+  
+ 

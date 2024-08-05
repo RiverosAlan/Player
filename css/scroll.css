@@ -1,0 +1,26 @@
+#mediumModal .modal-content {
+    background-color: #343a40; /* Color de fondo oscuro */
+    color: white; /* Texto en blanco */
+  }
+  
+  #mediumModal .btn-close {
+    filter: invert(1); /* Invertir el color del botón de cierre para hacerlo visible en fondo oscuro */
+  }
+  
+
+
+
+.parent-container {
+    width: 100%;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    border: 2px solid #000; /* Borde para visualizar el contenedor padre */
+    overflow: hidden; /* Oculta el desbordamiento del contenedor padre */
+}
+
+.scroll-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box; /* Incluye padding en el tamaño total */
+}

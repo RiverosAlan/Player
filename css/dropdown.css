@@ -1,0 +1,53 @@
+.dropdown-menu-dark {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.dropdown-menu-dark .dropdown-item {
+    color: #fff;
+}
+
+.dropdown-menu-dark .dropdown-item:hover,
+.dropdown-menu-dark .dropdown-item:focus {
+    color: #fff;
+    background-color: #495057;
+}
+
+
+.dropdown-menu.wide {
+    width: 330px;
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+}
+
+
+
+
+/* ESTILOS DE BARRA SCROLL */
+#listSongs::-webkit-scrollbar {
+    width: 11px; /* Ajusta el ancho según tus necesidades */
+}
+
+#listSongs::-webkit-scrollbar-track {
+    background: #333;
+}
+
+#listSongs::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 6px;
+}
+
+#listSongs::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+#dropdownMenuButton {
+    position: fixed; /* Mantiene el botón en una posición fija en la ventana del navegador */
+    top: 5px; /* Ajusta según sea necesario para tu diseño */
+    left: 5px; /* Ajusta según sea necesario para tu diseño */
+    z-index: -1; /* Asegura que el botón esté detrás de otros elementos */
+    opacity: 0; /* Hace el botón completamente transparente */
+    pointer-events: none; /* Evita que el botón reciba eventos de puntero (clics) */
+}
+
+
+
